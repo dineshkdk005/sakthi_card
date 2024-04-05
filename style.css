@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 253, 253);
+}
+.card{
+    width: 300px;
+    min-height: 380px;
+    background-color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.cardhead{
+    height: 5vh;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.cardhead .one{
+    width: 70%;
+    background-color: blue;
+}
+.cardhead .two{
+    width: 28%;
+    background-color: red;
+}
+.cardbody{
+    text-align: center;
+    margin-top: 20px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.content img{
+    height: 150px;
+    width: 100px;
+}
+.detail{
+    margin-left: 15px;
+    text-align: left;
+}
+.detail-2{
+    margin-top: 15px;
+    line-height: 23px;
+}
+.cardfooter{
+    height: 5vh;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.cardfooter .one{
+    width: 30%;
+    background-color: red;
+}
+.cardfooter .two{
+    width: 68%;
+    background-color: blue;
+}
+.sign{
+    margin-top: 30px;
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+}
